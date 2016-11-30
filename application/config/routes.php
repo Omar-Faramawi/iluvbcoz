@@ -53,5 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['migrate'] = 'Migrate';
-$route['login'] = 'Auth/login';
-$route['register'] = 'Auth/register';
+$route['login'] = 'application/Auth/login';
+$route['register'] = 'application/Auth/register';
